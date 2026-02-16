@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    background-color: rgb(192, 63, 63);
+    padding: 25px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.menu{
+    margin-right: 10px;
+}
+
+button{
+    border: none;
+    background-color: rgb(192, 63, 63);
+    height: 30px;
+    width: 60px;
+    color: white;
+    font-size: small;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    justify-content: baseline;
+    padding: 25px;
+    background-color: rgb(176, 170, 170);
+}
+
+.searchbox{
+    margin-right: 20px;
+    width: 500px;
+   
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.searchbutton > button{
+    height: 41px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(192, 63, 63);
+    cursor: pointer;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./photo.jpg);
+    padding: 15px;
+}
+
+.phototext{
+    background-color: black;
+    color: white;
+}
+
+.photo > button{
+    height: 50px;
+    width: 105px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.popular{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.movies{
+    background-color: rgb(180, 175, 175);
+    display: inline-block;
+    border-radius: 10px;
+    height: 430px;
+    width: auto;
+    overflow: scroll;
+}
+
+.card1{
+    display: inline-block;
+    padding: 15px;
+}
+
+.movie1{
+    border-radius: 10px;
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.moviename{
+   display: flex;
+   justify-content: center; 
+   padding: 5px;
+}
+
+.movies1{
+    display: inline-block;
+}
+
+.lastimg{
+    display: flex;
+    justify-content: center;
+}
+
